@@ -1,5 +1,5 @@
 
-# Crypto token ICO dapp
+# Crypto Devs (NFT-ERC721) Dapp
 > WAGMI, Keep Buidling!
 
 ## Live at: https://nft-dapp-front.vercel.app/
