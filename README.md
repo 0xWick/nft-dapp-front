@@ -1,36 +1,65 @@
+
+# Crypto token ICO dapp
+> WAGMI, Keep Buidling!
+
 ## Live at: https://nft-dapp-front.vercel.app/
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![logo](https://raw.githubusercontent.com/LearnWeb3DAO/NFT-Collection/main/my-app/public/cryptodevs/0.svg)
 
-## Getting Started
+## About
 
-First, run the development server:
+A NFT dapp (FrontEnd and Smart Contract), with a ERC721 token in contracts.
+NFT Collection attached with a Whitelist mint (from Whitelist Dapp) and a Public Mint.
 
-```bash
-npm run dev
-# or
-yarn dev
+## Stack
+
+React
+Next.js
+
+Solidity (Hardhat)
+
+Vercel
+
+## Requirements
+
+* There should only exist 20 Crypto Dev NFT's and each one of them should be unique.
+* User's should be able to mint only 1 NFT with one transaction.
+* Whitelisted users, should have a 5 min presale period before the actual sale where they are guaranteed 1 NFT per        transaction.
+* There should be a website for your NFT Collection.
+
+Let's start building 🚀
+
+## Basic Installation
+
+Hardhat:
+
+```sh
+mkdir hardhat-tutorial
+cd hardhat-tutorial
+npm init --yes
+npm install --save-dev hardhat
+
+npm install @openzeppelin/contracts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+NEXT:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```sh
+ npx create-next-app@latest
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+cd my-app
+npm run dev
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Usage example
 
-## Learn More
+Complete track for learning Web3 and make these amazing projects
 
-To learn more about Next.js, take a look at the following resources:
+_For more examples and usage, please refer to the [Wiki][wiki]._
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Development setup
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Follow the above link for complete setup!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<!-- Markdown link & img dfn's -->
+[wiki]:  https://www.learnweb3.io/tracks/sophomore
